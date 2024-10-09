@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtest\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|solutionrelative:mindboxtest\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E9AEEC-BEE2-48A2-B33C-70F1DBA43237}|MindBoxTestTests\\MindBoxTestTests.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtesttests\\triangletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E9AEEC-BEE2-48A2-B33C-70F1DBA43237}|MindBoxTestTests\\MindBoxTestTests.csproj|solutionrelative:mindboxtesttests\\triangletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E9AEEC-BEE2-48A2-B33C-70F1DBA43237}|MindBoxTestTests\\MindBoxTestTests.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtesttests\\circletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E9AEEC-BEE2-48A2-B33C-70F1DBA43237}|MindBoxTestTests\\MindBoxTestTests.csproj|solutionrelative:mindboxtesttests\\circletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtest\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|solutionrelative:mindboxtest\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtest\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|solutionrelative:mindboxtest\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtest\\ifigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|solutionrelative:mindboxtest\\ifigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|c:\\users\\\u0440\u0430\u0432\u0438\u043B\u044C\\desktop\\mindbox\\mindboxtest\\mindboxtest\\mindboxtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A7CD9B1-A80C-46B3-8439-C85911E4C551}|MindBoxTest\\MindBoxTest.csproj|solutionrelative:mindboxtest\\mindboxtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TriangleTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTestTests\\TriangleTests.cs",
+              "RelativeDocumentMoniker": "MindBoxTestTests\\TriangleTests.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTestTests\\TriangleTests.cs",
+              "RelativeToolTip": "MindBoxTestTests\\TriangleTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:57:10.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CircleTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTestTests\\CircleTests.cs",
+              "RelativeDocumentMoniker": "MindBoxTestTests\\CircleTests.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTestTests\\CircleTests.cs",
+              "RelativeToolTip": "MindBoxTestTests\\CircleTests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:32:26.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MindBoxTest.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\MindBoxTest.csproj",
+              "RelativeDocumentMoniker": "MindBoxTest\\MindBoxTest.csproj",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\MindBoxTest.csproj",
+              "RelativeToolTip": "MindBoxTest\\MindBoxTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T21:07:05.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Figure.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Figure.cs",
+              "RelativeDocumentMoniker": "MindBoxTest\\Figure.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Figure.cs",
+              "RelativeToolTip": "MindBoxTest\\Figure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:37:25.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Triangle.cs",
+              "RelativeDocumentMoniker": "MindBoxTest\\Triangle.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Triangle.cs",
+              "RelativeToolTip": "MindBoxTest\\Triangle.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:18:23.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Circle.cs",
+              "RelativeDocumentMoniker": "MindBoxTest\\Circle.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\Circle.cs",
+              "RelativeToolTip": "MindBoxTest\\Circle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:07:26.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFigure.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\IFigure.cs",
+              "RelativeDocumentMoniker": "MindBoxTest\\IFigure.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0432\u0438\u043B\u044C\\Desktop\\MindBox\\MindBoxTest\\MindBoxTest\\IFigure.cs",
+              "RelativeToolTip": "MindBoxTest\\IFigure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:50:04.418Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

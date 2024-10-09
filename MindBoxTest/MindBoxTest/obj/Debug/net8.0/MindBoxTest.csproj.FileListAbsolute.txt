@@ -1,0 +1,11 @@
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\bin\Debug\net8.0\MindBoxTest.deps.json
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\bin\Debug\net8.0\MindBoxTest.dll
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\bin\Debug\net8.0\MindBoxTest.pdb
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.AssemblyInfoInputs.cache
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.AssemblyInfo.cs
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.csproj.CoreCompileInputs.cache
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.dll
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\refint\MindBoxTest.dll
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\MindBoxTest.pdb
+C:\Users\Равиль\source\repos\MindBoxTest\MindBoxTest\obj\Debug\net8.0\ref\MindBoxTest.dll

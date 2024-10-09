@@ -1,0 +1,91 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: dotnet
+  labels:
+    app: dotnet
+spec:
+  replicas: 3 # Количество реплик, которое должно быть развернуто изначально
+  strategy:
+    rollingUpdate: # Стратегия обновления деплоймента
+      maxSurge: 2 # Количество реплик, которое будет доступно во время обновления
+      maxUnavailable: 1 # Количество реплик, которое будет недоступно во время обновления
+  selector:
+    matchLabels:
+      app: dotnet
+  template:
+    metadata:
+      labels:
+        app: dotnet
+    spec:
+      affinity: #  Политика Affinity, чтобы поды равномерно распределялись по разным нодам
+        podAntiAffinity: # Правило, если на наде есть под с опредленным ключом, то на эту ноду не селить данный под
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app.kubernetes.io/dotnet
+                operator: In
+                values:
+                - dotnet
+            topologyKey: kubernetes.io/dotnet
+      containers:
+        - name: dotnet # Имя контейнера
+          image: my_docker_dotnet_image # Имя образа контейнера (образ приложения)
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          readinessProbe:            # Проба, проверяет , готов ли контейнер принимать трафик
+            failureThreshold: 3      # Три попытки для выполнения readinessProbe
+            httpGet:                 # Проверяет по http запросу, в корневом каталоге, по 80 порту
+              path: /
+              port: 80
+            initialDelaySeconds: 10 # Время ожидания перед первой проверкой
+            periodSeconds: 5       # Время ожидания между проверками
+            successThreshold: 3     # Количество проверок, чтобы считаться готовым к приему трафика
+          livenessProbe:            # Проба, проверяет, работает ли еще контейнер
+            failureThreshold: 3
+            httpGet:                # Проверяет по http запросу, в корневом каталоге, по 80 порту
+              path: /
+              port: 80
+            initialDelaySeconds: 10 # Время ожидания перед первой проверкой
+            periodSeconds: 5       # Время ожидания между проверками
+            successThreshold: 3     # Количество проверок, чтобы считаться рабочим
+          
+            
+          resources:
+            requests:               # Запрашиваемы ресурсы по условию
+              cpu: 100m             
+              memory: 128Mi
+            limits:
+              cpu: 200m       # Максимальное потребление CPU, взял навскидку, так как в условии нет конкретных цифр по нагрузке при запуске
+              memory: 128Mi   # Так как в условии указано почти всегда "ровное" значение, лимит установил тот же
+---
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: dotnet-autoscaling
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: dotnet-deployment-autoscaling
+  minReplicas: 3 # Изначальное количество подов, которое может существовать, по условию
+  maxReplicas: 5 # Максимальное количество подов, которое может существовать
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization      
+          averageUtilization: 50 # Степень использования ресурсов, выбрал 50, чтобы был запас без рисков перегрузки системы
+    - type: Resource
+      resource:
+        name: memory
+        target:
+          type: AverageValue
+          averageValue: 128Mi  # Среднее значение потребление памяти
+
+
+        
+        
+
